@@ -187,7 +187,7 @@
                         }
                     });
                 }
-            });
+            });//Biri Biri
 
             //Trocar da Tela de Login para Recuperar Senha
             $("#btnEsqueci").click(function() {
