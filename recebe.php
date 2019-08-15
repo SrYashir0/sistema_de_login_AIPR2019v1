@@ -1,9 +1,10 @@
 <?php
-#backend
+/**
+ * Back-end
+ * aula04 15/08/8019 - Recepção de dados no Back-end
+ */
+
 
 echo "<pre>\n";
-print_r($_GET);
-ECHO "</pre>\n";
-
-echo "\n<h1>Nome: $_GET[usuario]</h1>";
-echo "\n<h2>Senha: $_GET[senha]</h2>";
+print_r($_POST);
+echo "</pre>\n";
