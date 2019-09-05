@@ -150,6 +150,10 @@
                         success: function(resposta) {
                             $('#alerta').show();
                             $('#resultado').html(resposta);
+                            if(resposta == "ok"){
+                                //Redirecionamento
+                                window.location = "profile.php"; 
+                            }
                         }
                     });
                 }
