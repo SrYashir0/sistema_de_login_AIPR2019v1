@@ -29,7 +29,7 @@ USE `sistemadelogin`;
 --
 -- Estrutura da tabela `usuario`
 --
-
+-- 06/09/2019 - Criação da coluna "avatar" para desafio
 CREATE TABLE `usuario` (
   `idUsuario` int(10) UNSIGNED NOT NULL,
   `nome` varchar(100) COLLATE utf8mb4_bin NOT NULL,
