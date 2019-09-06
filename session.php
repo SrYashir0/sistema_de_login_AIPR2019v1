@@ -4,8 +4,8 @@ session_start();
 //Conectando com o banco de dados
 require_once 'configDB.php';
 
-if(isset($_SESSION['nomeUsuario'])){
-    //echo "usuario logado!";
+if (isset($_SESSION['nomeUsuario'])) {
+    //echo "usuário logado!";
     $usuario = $_SESSION['nomeUsuario'];
     $sql = $conecta->prepare("SELECT * FROM usuario WHERE nomeUsuario = ?");
     $sql->bind_param("s", $usuario);
@@ -15,8 +15,13 @@ if(isset($_SESSION['nomeUsuario'])){
 
     $nome = $linha['nome'];
     $email = $linha['email'];
-    $dataCriacao = $linha['dataCriacao'];
-}else{
+    //Conversão de data e hora
+    $d = $linha['dataCriacao'];
+    $d = new DateTime($d);
+    $dataCriacao = $d->format('d/m/Y H:i:s');
+    
+    $urlAvatar = $linha['avatar_url'];
+} else {
     //Kick
     header("location: index.php");
 }
