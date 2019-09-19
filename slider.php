@@ -63,19 +63,19 @@ require_once 'session.php';
                     <img src="images/dogandcat-1300x780.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>First slide label</h5>
-                        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                        <p>Cachorros</p>
                     </div>
                 </div>
                 <div class="carousel-item">
                     <img src="images/dogao-1300x780.jpg" class="d-block w-100" alt="...">
                     <div class="carousel-caption d-none d-md-block">
                         <h5>Second slide label</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                        <p>são</p>
                     </div>
                 </div>
                 <div class="carousel-item">
-                    <img src="images/marvelzada-1300x780.jpg" class="d-block w-100" alt="...">
-                    <div class="carousel-caption d-none d-md-block">
+                    <img src="images/nose.jpg" class="d-block w-100" alt="...">
+                    <div class="demais">
                         <h5>Third slide label</h5>
                         <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                     </div>
